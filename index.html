@@ -1,6 +1,5 @@
 <!DOCTYPE html>
-<html>
-    
+<html lang="en">
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width,initial-scale=1.0">
@@ -12,17 +11,17 @@
     
     <body>
             <div class="container mobile-logo">
-                <img src="imgs/logo.svg"/>     
+                <img src="imgs/logo.svg" alt="logo"/>     
             </div>
           <div class="container">
             
             <div class="imgSide">
-            <img src="imgs/hero-desktop.jpg"/>
+            <img src="imgs/hero-desktop.jpg" alt="hero-desktop"/>
             </div>   
             
             <div class="textSide">
              <div class="logoImg">
-               <img src="imgs/logo.svg"/>     
+               <img src="imgs/logo.svg" alt="logo"/>     
              </div>
              
              <div class="logoText">
@@ -31,14 +30,22 @@
              <p>Hello, fellow shoppers! We're currently building our new fashion store. Add your email below to stay up-to-date with announcements and our launch deals.</p>         
              </div>
                  
-             <div class="EmailForm">
+             <div class="EmailForm" method="post">
              <form class="form-inline">
-             <input class="" type="email" placeholder="Email Address" aria-label="email">
-             <button type="submit"><img src="imgs/icon-arrow.svg"/> </button>
+                <input class="form-control is-invalid" type="email" placeholder="Email Address" aria-label="email"/>
+                <button type="submit"><img src="imgs/icon-arrow.svg" alt="arrow"/> </button>
              </form>
+                  <small class="text-danger">plase provide a vaild email</small>
              </div>
             
-         </div>       </div>            
+            </div> 
+             <footer>
+                <p class="attribution">
+                  Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+                  Coded by <a href="https://www.linkedin.com/in/nehal-nafady-b140b8118/" target="_blank">Nehal Nafady</a>.
+                </p>
+              </footer>
+        </div>            
             
             
           
@@ -47,4 +54,4 @@
          
         </div>
     </body>
-</html>     
+</html>   
