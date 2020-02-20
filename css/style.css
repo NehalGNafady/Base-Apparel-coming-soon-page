@@ -1,38 +1,68 @@
 body{font-family: Josefin Sans}
 
-.cont{ background-image: url("../imgs/bg-pattern-desktop.svg"); background-repeat: no-repeat;   background-size: cover;}
+.cont{ background-image: url("../images/bg-pattern-desktop.svg");
+            background-repeat: no-repeat;  
+            background-size: cover;}
 
-.textSide{float: left; width: 60%; height: 582px; padding-left: 129px; background-image: url("../imgs/bg-pattern-desktop.svg"); background-repeat: no-repeat;   background-size: cover;}
+.textSide{float: left; 
+            width: 60%;
+            height: 582px;
+            padding-left: 129px; 
+            background-image: url("../images/bg-pattern-desktop.svg");
+            background-repeat: no-repeat; 
+            background-size: cover;}
 
-.logoImg{margin-top: 55px; margin-bottom: 75px}
+.logoImg{margin-top: 55px;
+            margin-bottom: 75px}
 
-.logoImg img{ height:40px; width:190px}
+.logoImg img{ height:40px; 
+                width:190px}
 
-.imgSide{float: right; width: 40%}
+.imgSide{float: right;
+            width: 40%}
 
 .imgSide img{ width: 100%;}
 
-.logoText h1{color: hsla(0, 36%, 70%, 1);font-weight: 400;}
+.logoText h1{color: hsla(0, 36%, 70%, 1);
+            font-weight: 400;}
 
-.logoText h2,h1{font-size: 55px;  margin-top: 0; text-transform: uppercase; letter-spacing: 20px;}
+.logoText h2,h1{font-size: 55px; 
+                    margin-top: 0; 
+                    text-transform: uppercase; 
+                    letter-spacing: 20px;}
 
 .logoText h2{font-weight: bold}
 
-.logoText p{color: hsla(0, 36%, 70%, 1); font-size: 16px; padding: 0 25% 0% 0%; }
+.logoText p{color: hsla(0, 36%, 70%, 1); 
+                font-size: 16px;
+                padding: 0 25% 0% 0%; }
 
 .EmailForm {width: 100%;}
 
-.EmailForm input[type=email]{ padding: 10px; border-radius: 20px; background: none; border: 2px solid #f2e9ea; border-right-color: #fff;}
+.EmailForm input[type=email]{ padding: 20px 20px; 
+                                border-radius: 20px; 
+                                background: none;
+                                border: 2px solid #f2e9ea; 
+                                border-right-color: #fff; 
+                                width: 65%;}
 
-::placeholder {color: #f1dfdb}
 
-.EmailForm button[type=submit]{width: 12%; height: 49px; border-radius: 25px; background: linear-gradient(135deg, hsla(0, 80%, 86%, 1), hsla(0, 74%, 74%, 1)); border: 2px solid #f2e9ea; margin-left: -60px;}
+.EmailForm button[type=submit]{width: 15%;
+                                height: 45px;
+                                border-radius: 25px;
+                                background: linear-gradient(135deg, hsla(0, 80%, 86%, 1), hsla(0, 74%, 74%, 1));
+                                border: 2px solid #f2e9ea;
+                                margin-top: -70px;
+                                margin-left: 313px;
+}
 
 .EmailForm img{ margin-top: -5px;}
 
-.attribution { font-size: 11px; text-align: center; }
+.attribution { font-size: 11px; 
+                padding-right: 185px;
+                text-align: center; }
 
-.attribution a { color: hsl(228, 45%, 44%); }
+.attribution a { color: hsl(0, 75%, 78%) }
 
 .EmailForm button[type=submit]:hover{box-shadow:  0 1px 15px 0 rgba(0, 0, 0, 0.19);}
 
@@ -51,25 +81,39 @@ body{font-family: Josefin Sans}
     
     .logoImg{ visibility: hidden; } 
    
-    .mobile-logo{ width: 100%; padding: 9% 0 24px 10%; background-image: url(../imgs/bg-pattern-desktop.svg); 
-     background-repeat: no-repeat;      background-size: cover; }
+    .mobile-logo{ width: 100%; 
+                    padding: 9% 0 24px 10%;
+                    background-image: url(../images/bg-pattern-desktop.svg); 
+                    background-repeat: no-repeat; 
+                    background-size: cover; }
     
-    .logoText {margin-top: -97px; margin-left: -55px; text-align: center; width: 100%;}
+    .logoText {margin-top: -97px; 
+                margin-left: -55px; 
+                text-align: center;
+                width: 100%;}
     
     .logoText h1{color: hsla(0, 36%, 70%, 1);}
     
     .imgSide{width: 100%;}
     
-    .imgSide img { width: 100%; margin-left: -15px;}
+    .imgSide img { width: 100%; 
+                   margin-left: -15px;}
     
-    .textSide {width: 100%; margin-left: -15px;}
+    .textSide {width: 100%;
+                margin-left: -15px;}
     
-    .logoText h2, h1 { font-size: 30px; margin-left: -65px;}
+    .logoText h2, h1 { font-size: 30px;
+                        margin-left: -65px;}
     
-    .logoText p{ margin-left: -40px; margin-right: -8px; color: hsla(0, 36%, 70%, 1);}
+    .logoText p{ margin-left: -40px; 
+                    margin-right: -8px; 
+                    color: hsla(0, 36%, 70%, 1);}
     
-    .EmailForm {width: 100%; margin-left: -15px;}
+    .EmailForm {width: 100%;
+                margin-left: -15px;}
 
-    .EmailForm input[type=email]{width: 75%; margin-left: -50px;}
+    .EmailForm input[type=email]{width: 75%; 
+                                margin-left: -50px;}
 
-    .EmailForm button[type=submit]{margin-left: -55px; width: 15%;}
+    .EmailForm button[type=submit]{margin-left: -55px; 
+                                    width: 15%;}

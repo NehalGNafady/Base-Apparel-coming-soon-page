@@ -1,57 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width,initial-scale=1.0">
-        <title>Base Apparel coming soon page</title>
-        <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,600&display=swap" rel="stylesheet">
-        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-        <link rel="stylesheet" href="css/style.css">
-    </head>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">  
+<title>Frontend Mentor | Base Apparel coming soon page</title><link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,600&display=swap" rel="stylesheet">
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<link rel="stylesheet" href="css/style.css">
+</head>
     
     <body>
             <div class="container mobile-logo">
-                <img src="imgs/logo.svg" alt="logo"/>     
+                <img src="images/logo.svg" alt="logo"/>     
             </div>
           <div class="container">
-            
             <div class="imgSide">
-            <img src="imgs/hero-desktop.jpg" alt="hero-desktop"/>
+            <img src="images/hero-desktop.jpg" alt="hero-desktop"/>
             </div>   
             
             <div class="textSide">
              <div class="logoImg">
-               <img src="imgs/logo.svg" alt="logo"/>     
+               <img src="images/logo.svg" alt="logo"/>     
              </div>
-             
              <div class="logoText">
              <h1>WE'RE </h1>
              <h2> COMING <BR> SOON</h2>  
              <p>Hello, fellow shoppers! We're currently building our new fashion store. Add your email below to stay up-to-date with announcements and our launch deals.</p>         
-             </div>
-                 
+             </div>   
              <div class="EmailForm" method="post">
-             <form class="form-inline">
-                <input class="form-control is-invalid" type="email" placeholder="Email Address" aria-label="email"/>
-                <button type="submit"><img src="imgs/icon-arrow.svg" alt="arrow"/> </button>
-             </form>
-                  <small class="text-danger">plase provide a vaild email</small>
+                 <form class="needs-validation" novalidate>
+                    <div class="form-group">
+                       <input type="email" class="form-control" name="email" title="email" id="validationCustom03" placeholder="Email Address" required>
+                          <button class="claim btn" type="submit"><img src="images/icon-arrow.svg" alt="arrow"/></button>
+                          <div class="invalid-feedback">
+                            Pleade provide a valid email
+                          </div>
+                    </div>
+                 </form>
              </div>
-            
-            </div> 
-             <footer>
+            <footer>
                 <p class="attribution">
                   Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
                   Coded by <a href="https://www.linkedin.com/in/nehal-nafady-b140b8118/" target="_blank">Nehal Nafady</a>.
                 </p>
-              </footer>
+            </footer>
+            </div> 
         </div>            
-            
-            
-          
-            
-           
-         
         </div>
+        <script src="js/script.js"></script> 
     </body>
 </html>   
